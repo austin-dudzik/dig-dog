@@ -1,0 +1,47 @@
+body {
+  background: url("images/background.png");
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  border-radius: 10px;
+}
+
+.square {
+  display: inline-block;
+  background: url("images/grass.png");
+  background-size: contain;
+  border: 2px dotted #fff;
+  margin: 3px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.dug {
+  background: url("images/dirt.png");
+  background-size: contain;
+}
+
+.bone {
+  background: url("images/bone.png");
+  background-size: contain;
+}
+
+.progress {
+  height: 30px;
+}
+
+.progress-bar {
+  width: 0%;
+}
+
+.bg-danger {
+   background: #e53941!important;
+}
+
+.bg-success {
+  background:#0eb033!important
+}
